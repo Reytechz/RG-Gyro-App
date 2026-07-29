@@ -1,14 +1,13 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Reytechz/RG-Gyro/main/rey_gyro_app/assets/images/app_logo.png" width="120" alt="RG Gyro Tuner Logo"/>
+<img src="https://raw.githubusercontent.com/Reytechz/RG-Gyro-App/main/assets/images/app_logo.png" width="120" alt="RG Gyro Tuner Logo" onerror="this.src='https://via.placeholder.com/120?text=RG+Gyro'"/>
 
 # RG Gyro Tuner
 
-**Aplikasi tuning gyro counter-steering untuk mobil RC drift via Bluetooth LE**
+**Aplikasi tuning resmi untuk modul RG Gyro RC Drift**
 
-[![Release](https://img.shields.io/github/v/release/Reytechz/RG-Gyro-App?style=for-the-badge&color=00d4ff)](../../releases/latest)
-[![Platform](https://img.shields.io/badge/Platform-Android-brightgreen?style=for-the-badge&logo=android)](../../releases/latest)
-[![License](https://img.shields.io/badge/License-Private-red?style=for-the-badge)](#)
+[![Release](https://img.shields.io/github/v/release/Reytechz/RG-Gyro-App?style=for-the-badge&color=00d4ff)](https://github.com/Reytechz/RG-Gyro-App/releases/latest)
+[![Platform](https://img.shields.io/badge/Platform-Android-brightgreen?style=for-the-badge&logo=android)](https://github.com/Reytechz/RG-Gyro-App/releases/latest)
 
 </div>
 
@@ -16,7 +15,7 @@
 
 ## 📥 Download
 
-> **[⬇️ Download APK Terbaru](../../releases/latest)**
+> **[⬇️ Download APK Terbaru](https://github.com/Reytechz/RG-Gyro-App/releases/latest)**
 
 Kompatibel dengan Android 8.0+ (API 26+)
 
@@ -26,32 +25,31 @@ Kompatibel dengan Android 8.0+ (API 26+)
 
 | Fitur | Keterangan |
 |---|---|
-| 🔵 **BLE Connect** | Hubungkan ke perangkat Rey Gyro via Bluetooth LE |
-| 🎛️ **Tuning Parameter** | Atur AGS, PCA, DLY secara real-time |
-| 📐 **Kalibrasi EPA** | Wizard kalibrasi batas kemudi kiri/kanan step-by-step |
-| 🔄 **Reverse Mode** | Toggle arah koreksi normal/reverse |
-| 🏷️ **Edit Nama Device** | Rename perangkat gyro dengan prefix `RG-` |
-| 🌗 **Dark / Light Mode** | Tema gelap dan terang |
-| 🌐 **Bilingual** | Dukungan Bahasa Indonesia & English |
-| 📡 **Konsol Log** | Monitor respons real-time dari perangkat |
+| 📡 **Wireless Connect** | Hubungkan secara langsung ke unit RG Gyro |
+| 🎛️ **Tuning Parameter** | Atur sensitivitas AGS, PCA, DLY secara real-time |
+| 📐 **Kalibrasi EPA** | Wizard kalibrasi batas kemudi fisik (Left/Right Limit) |
+| 🔄 **Reverse Mode** | Toggle arah koreksi counter-steer |
+| 🏷️ **Custom Device Name** | Ubah nama perangkat gyro (Prefix `RG-`) |
+| 🌗 **Dark / Light Mode** | Pilihan tema visual |
+| 🌐 **Bilingual Support** | Bahasa Indonesia & English |
+| 📊 **Console Monitor** | Telemetri & respon data dari unit RG Gyro |
 
 ---
 
 ## 📱 Cara Install
 
-1. Download file **APK** dari [Releases](../../releases/latest)
-2. Di HP Android, izinkan **"Install dari sumber tidak dikenal"**
-   - Pengaturan → Keamanan → Sumber tidak dikenal ✅
-3. Buka file APK dan install
-4. Pastikan **Bluetooth** aktif sebelum membuka aplikasi
+1. Download file **APK** dari menu [Releases](https://github.com/Reytechz/RG-Gyro-App/releases/latest)
+2. Izinkan **"Install dari sumber tidak dikenal"** di HP Android Anda jika diminta
+3. Install file APK
+4. Aktifkan koneksi wireless & lokasi pada HP sebelum membuka aplikasi
 
 ---
 
 ## 🔧 Kompatibilitas Perangkat
 
-Aplikasi ini dirancang untuk bekerja dengan **Rey Gyro** — perangkat gyro berbasis **ESP32 (Seeed XIAO ESP32C3)** dengan firmware khusus.
+Aplikasi ini khusus digunakan untuk ekosistem perangkat **RG Gyro**.
 
-> ⚠️ Tidak kompatibel dengan perangkat gyro lain.
+> ⚠️ Hanya kompatibel dengan unit hardware resmi RG Gyro.
 
 ---
 
@@ -59,16 +57,15 @@ Aplikasi ini dirancang untuk bekerja dengan **Rey Gyro** — perangkat gyro berb
 
 ### v1.0.0
 - 🎉 Initial release
-- BLE scan & connect
-- Tuning AGS, PCA, DLY
+- Wireless scan & pairing
+- Parameter tuning (AGS, PCA, DLY)
 - EPA Calibration Wizard
-- Reverse mode toggle
-- Edit device name (prefix `RG-`)
-- Dark/Light mode
-- Bilingual ID/EN
+- Reverse direction toggle
+- Custom device name (`RG-` prefix)
+- Dark / Light mode & Multilingual
 
 ---
 
 <div align="center">
-<sub>© Rey Garage — Private use only</sub>
+<sub>© RG Garage — Proprietary & Confidential</sub>
 </div>
