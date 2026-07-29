@@ -19,11 +19,11 @@
 
 Unduh installer/binary resmi yang sesuai dengan perangkat Anda di halaman **[Releases Terbaru](https://github.com/Reytechz/RG-Gyro-App/releases/latest)**.
 
-| Perangkat / Platform | Format | Cara Instalasi & Penggunaan |
+| Platform | Format File | Petunjuk Instalasi & Penggunaan |
 |---|---|---|
-| 📱 **Android** | `.apk` | Download `RG-Gyro-Tuner-Android-v*.apk` ➔ Izinkan instalasi dari sumber tidak dikenal ➔ Pasang & buka |
-| 🪟 **Windows Desktop** | `.zip` | Download `RG-Gyro-Tuner-Windows-v*.zip` ➔ Ekstrak folder ➔ Jalankan `rey_gyro_app.exe` |
-| 🐧 **Linux Desktop** | `.tar.gz` | Download `RG-Gyro-Tuner-Linux-v*.tar.gz` ➔ Ekstrak archive ➔ Jalankan `./rey_gyro_app` |
+| 📱 **Android** | `RG-Gyro-Tuner-Android-v*.apk` | Izinkan instalasi dari sumber tidak dikenal ➔ Install & Buka |
+| 🪟 **Windows Desktop** | `RG-Gyro-Tuner-Windows-v*.exe` | Download & Jalankan Installer Setup ➔ Ikuti petunjuk wizard |
+| 🐧 **Linux Desktop** | `RG-Gyro-Tuner-Linux-v*.AppImage` | Beri izin eksekusi (`chmod +x`) ➔ Klik/jalankan langsung |
 
 ---
 
